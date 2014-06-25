@@ -1,0 +1,110 @@
+# Copyright (C) 2014 Chamame Live Chat
+# This file is distributed under the same license as the Chamame Live Chat package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Chamame Live Chat 0.1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/chamame-live-chat\n"
+"POT-Creation-Date: 2014-06-24 22:55:51+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+
+#: libs/ChamameInstaller.php:87
+msgid "Chat Operator"
+msgstr "チャットオペレーター"
+
+#: libs/admin/ChamameGuiAdmin.php:47
+msgid "Something went wrong. Please try again"
+msgstr "何かがおかしいようです。恐れ入りますが、再度お試しください"
+
+#: libs/admin/ChamameGuiAdmin.php:73
+msgctxt "admin page title"
+msgid "Chat"
+msgstr "チャット"
+
+#: libs/admin/ChamameGuiAdmin.php:74
+msgctxt "admin menu label"
+msgid "Chat"
+msgstr "チャット"
+
+#: libs/client/ChamameVisitorOnlyChatClient.php:45
+msgid "An name is required"
+msgstr "名前を入力してください"
+
+#: libs/client/ChamameVisitorOnlyChatClient.php:46
+msgid "Doesn't look like a valid email"
+msgstr "メールアドレスの形式が正しくありません"
+
+#: libs/client/ChamameVisitorOnlyChatClient.php:47
+msgid "An email is required"
+msgstr "メールアドレスを入力してください"
+
+#: libs/client/ChamameVisitorOnlyChatClient.php:48
+msgid "We're sorry, but something went wrong. Please try again"
+msgstr "何かがおかしいようです。恐れ入りますが、再度お試しください"
+
+#: templates/adminConsole.php:11
+msgid "Chat"
+msgstr "チャット"
+
+#: templates/adminConsole.php:17
+msgid "Currently there is no conversation"
+msgstr "参加できる会話はありません"
+
+#: templates/adminConsole.php:23
+msgctxt "sender prefix"
+msgid "From: "
+msgstr ""
+
+#: templates/adminConsole.php:49 templates/client.php:52
+msgid "Press enter to send chat"
+msgstr "Enterキーを押して送信"
+
+#: templates/adminConsole.php:57
+msgid "Hide conversation"
+msgstr "会話を隠す"
+
+#: templates/client.php:4
+msgid "Chat with us now"
+msgstr "チャット"
+
+#: templates/client.php:12
+msgid "Administrators are not allowed to chat from here"
+msgstr "管理者/オペレーターはここでチャットをすることはできません"
+
+#: templates/client.php:20
+msgid "Ask us a question"
+msgstr "質問をどうぞ"
+
+#: templates/client.php:22 templates/client.php:23
+msgid "Your name"
+msgstr "名前"
+
+#: templates/client.php:25 templates/client.php:26
+msgid "Your email"
+msgstr "メールアドレス"
+
+#: templates/client.php:34
+msgid "Start chat"
+msgstr "チャットを開始"
+
+#: templates/client.php:56
+msgid "End chat"
+msgstr "チャットを終了"
+
+#. Plugin Name of the plugin/theme
+msgid "Chamame Live Chat"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Simple chat application for customer support."
+msgstr "カスタマーサポートのためのシンプルなチャット"
+
+#. Author of the plugin/theme
+msgid "katanyan"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://blog.katanyan.com"
+msgstr ""

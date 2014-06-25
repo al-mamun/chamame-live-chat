@@ -1,0 +1,188 @@
+@charset "utf-8";
+
+$clientBgColor: transparent;
+$clientFontSize: 14px;
+$clientWidth: 300px;
+
+$clientContainerBgColor: #fff;
+
+$headerBgColor: #428bca;
+$headerFontColor: #fff;
+$headerFontSize: $clientFontSize;
+
+.chamameChatClient {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 40px;
+  z-index: 9999999;
+  margin: 0;
+  padding: 0;
+  width: $clientWidth;
+  background-color: $clientBgColor;
+  line-height: 1.5;
+  font-size: $clientFontSize;
+  color: #333;
+
+  .chamameChatFormLead {
+    margin: 0 0 20px 0;
+    padding: 0;
+  }
+
+  .chamameChatHeader {
+    background-color: $headerBgColor;
+    border-radius: 4px 4px 0 0;
+    color: $headerFontColor;
+    padding: 10px 15px;
+    cursor: pointer;
+
+    .chamameChatHeaderHeading {
+      margin: 0;
+      font-size: $clientFontSize;
+    }
+  }
+
+  .chamameChatLoginForm {
+    label {
+      display: block;
+      margin-bottom: 6px;
+      color: #878787;
+    }
+
+    input {
+      width: 100%;
+      margin-bottom: 12px;
+    }
+
+    .chamameChatLoginButton {
+      margin: 12px 0 0 0;
+      text-align: center;
+    }
+  }
+
+  .chamameChatClientButton {
+    display: inline-block;
+    margin: 5px 0;
+    padding: 6px 12px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    white-space: nowrap;
+    text-transform: none;
+    color: #333;
+    font-size: 14px;
+    background-color: #fff;
+    &:hover {
+      background-color: #ebebeb;
+      border-color: #adadad;
+      text-decoration: none;
+    }
+  }
+
+
+  .chamameChatTerminal {
+    display: none;
+
+    .chamameChatMessages {
+      margin: 0 0 12px;
+      max-height: 340px;
+      overflow: auto;
+
+      .chamameChatMessage {
+        margin: 0 0 12px 0;
+        padding: 0;
+        font-size: 14px;
+
+        .chamameChatMessageMeta {
+          margin: 0;
+          padding: 0;
+          font-size: 14px;
+          color: #8899a6;
+          .chamameSenderName {
+            font-weight: bold;
+          }
+        }
+
+        .chamameChatMessageMessage {
+          margin: 0;
+          padding: 0;
+        }
+      }
+    }
+
+    .chamameChatEnd {
+      margin: 12px 0 0 0;
+      text-align: right;
+
+      a {
+        background: transparent;
+        color: #428bca;
+        &:hover {
+          color: #2a6496;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .chamameChatReplyForm {
+    textarea {
+      margin: 0;
+      overflow: hidden;
+      resize: none;
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+      font-weight: normal;
+      color: #333;
+      &:focus {
+        outline: 0;
+        border-color: #adadad;
+      }
+    }
+  }
+
+  .chamameValidationMessages {
+    padding: 6px 12px; 
+    color: #b94a48;
+    background-color: #f2dede;
+    border-radius: 4px;
+    border: 1px solid #fbeed5;
+    margin-bottom: 12px;
+    font-size: $clientFontSize;
+  }
+
+  .chamameValidationMessage {
+  }
+}
+
+
+.chamameChatClientContainer {
+  display: none;
+  margin: 0;
+  padding: 20px;
+  background-color: $clientContainerBgColor;
+  border-style: solid;
+  border-color: #eeeeee;
+  border-width: 0 1px 0 1px;
+
+}
+
+.chamameSystemMessage {
+  display: none;
+  padding: 6px 12px; 
+  color: #b94a48;
+  background-color: #f2dede;
+  border-radius: 4px;
+  border: 1px solid #fbeed5;
+  margin-bottom: 12px;
+  font-size: $clientFontSize;
+}
+
+.chamameChatContactForm {
+}

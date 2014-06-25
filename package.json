@@ -1,0 +1,28 @@
+{
+  "name": "chamame-live-chat",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "event-stream": "^3.1.5",
+    "gulp": "^3.8.5",
+    "gulp-autoprefixer": "0.0.7",
+    "gulp-concat": "^2.2.0",
+    "gulp-csslint": "^0.1.4",
+    "gulp-footer": "^1.0.4",
+    "gulp-jshint": "^1.6.3",
+    "gulp-rename": "^1.2.0",
+    "gulp-ruby-sass": "^0.5.0",
+    "gulp-sass": "^0.7.2",
+    "gulp-scss-lint": "^0.1.0",
+    "gulp-strip-debug": "^0.3.0",
+    "gulp-uglify": "^0.3.1",
+    "run-sequence": "^0.3.6",
+    "uglify-save-license": "^0.4.1"
+  }
+}

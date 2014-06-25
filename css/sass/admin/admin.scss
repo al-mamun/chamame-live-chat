@@ -1,0 +1,158 @@
+@charset "utf-8";
+
+$chamameBorderColor: #e1e8ed;
+$tableBackgroundColor: #fff;
+$tableBackgroundHoverColor: #f5f8fa;
+
+$metaColor: #8899a6;
+
+.chamameChatAdminConsole {
+  color: #66757f;
+}
+
+.chamameClearfix:before,
+.chamameClearfix:after {
+  content: " ";
+  display: table;
+}
+
+.chamameClearfix:after {
+  clear: both;
+}
+
+.chamameClearfix {
+  *zoom: 1;
+}
+
+.chamameSystemMessage {
+  display: none;
+  margin: 20px 0 12px 0;
+  padding: 6px 12px; 
+  color: #b94a48;
+  background-color: #f2dede;
+  border-radius: 4px;
+  border: 1px solid #fbeed5;
+}
+
+.chamameCloseConversation {
+  margin: 0;
+  padding: 12px 0;
+}
+
+.chamameNoConversation {
+  display: none;
+}
+
+.chamameConversations {
+  margin-top: 20px;
+
+  .chamameConversation {
+    float:left;
+    opacity: 0.8;
+    margin: 0 6px 15px 0;
+    padding: 3px 6px;
+    background-color: $tableBackgroundColor;
+    
+    &:hover {
+      background-color: $tableBackgroundHoverColor;
+      cursor: pointer;
+    }
+
+    .chamameConversationId {
+      color: $metaColor;
+    }
+
+    .chamameConversationTimestamp {
+      color: $metaColor;
+    }
+
+    .chamameConversationMessage {
+      color: $metaColor;
+    }
+
+  }
+
+  .chamameActiveConversation {
+    position: relative;
+    opacity: 1;
+    background-color: $tableBackgroundColor;
+    color: #292f33;
+
+    &:before { 
+      content: "";
+      position: absolute;
+      bottom: -20px;
+      left: 50%;
+      margin-left: -10px;
+      border: 10px solid transparent;
+      border-top: 10px solid #fff;
+
+    }
+
+    &:hover:before {
+      border-top-color: $tableBackgroundHoverColor;
+      cursor: pointer;
+    }
+
+    .chamameConversationSenderName {
+      font-weight: bold;
+    }
+  }
+
+  .chamameUnread {
+    color: #0084B4;
+    font-weight: bold;
+  }
+
+}
+
+.chamameChatTerminal {
+  position: relative;
+  padding: 20px;
+  background-color: #fff;
+
+  .chamameChatMessages {
+    margin: 0 0 12px;
+    max-height: 260px;
+    overflow: auto;
+
+    .chamameChatMessage {
+      margin: 0 0 12px 0;
+      padding: 0;
+      font-size: 14px;
+
+      .chamameChatMessageMeta {
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+        color: #8899a6;
+        .chamameSenderName {
+          font-weight: bold;
+        }
+      }
+
+      .chamameChatMessageMessage {
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+
+  .chamameChatReplyForm {
+    textarea {
+      margin: 0;
+      overflow: hidden;
+      resize: none;
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+      font-weight: normal;
+      color: #333;
+      &:focus {
+        outline: 0;
+        border-color: #adadad;
+      }
+    }
+  }
+}

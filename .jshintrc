@@ -1,0 +1,6 @@
+{
+  "curly": true,
+  "eqeqeq": true, 
+  "eqnull": true,
+  "trailing": true
+}
