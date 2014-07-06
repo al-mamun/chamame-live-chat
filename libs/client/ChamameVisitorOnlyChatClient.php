@@ -66,7 +66,7 @@ class ChamameVisitorOnlyChatClient extends ChamameChatClient {
     );
     wp_enqueue_script( 'chamameClient' );
 
-    $ajaxUrl = str_replace( array( 'https:', 'http:' ), '', $this->config->getPluginUrl() . '/chamame-ajax.php' );
+    $ajaxUrl = str_replace( array( 'https:', 'http:' ), '', admin_url( 'admin-ajax.php' ) );
     $token = wp_create_nonce( 'chamameLiveChat' );
     $textDomain = $this->config->getTextDomain();
     wp_localize_script(
