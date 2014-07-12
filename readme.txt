@@ -1,7 +1,7 @@
 === Chamame Live Chat ===
 Contributors: katanyan
 Donate link: http://blog.katanyan.com/
-Tags: chat, customer support
+Tags: chat, customer support, help desk
 Requires at least: 3.9
 Tested up to: 3.9.1
 Stable tag: 0.1.0
