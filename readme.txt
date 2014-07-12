@@ -12,12 +12,16 @@ Simple chat application for customer support.
 
 == Description ==
 
-= Plugin features =
+Chamame is a WordPress plugin that adds a live chat for excellent customer support to your website.
+
+= Plugin features: =
+
 * Working with standalone. Not depend on other services.
 * Easy to use.
 * Promising ;)
 
-= Future enhancements =
+= Future enhancements: =
+
 * Custom label text.
 * Custom look and feel.
 * Operator nickname to display in chat console.
@@ -26,7 +30,8 @@ Simple chat application for customer support.
 * Alternative contact form for when operator is away.
 * Notification email when visitor starts chat.
 
-= Limitations =
+= Limitations: =
+
 * Multisite is not supported.
 
 == Installation ==
