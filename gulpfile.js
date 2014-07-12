@@ -18,6 +18,7 @@ gulp.task('css', function() {
     gulp.src('css/sass/client/client.scss')
     .pipe(sass({
       sourcemap: true,
+      sourcemapPath: './sass/client',
       style: 'compressed'
     }))
     .pipe(autoprefixer('last 2 versions', 'ie 9', 'ios 6', 'android 4'))
@@ -31,6 +32,7 @@ gulp.task('css', function() {
     gulp.src('css/sass/admin/admin.scss')
     .pipe(sass({
       sourcemap: true,
+      sourcemapPath: './sass/admin',
       style: 'compressed'
     }))
     .pipe(autoprefixer('last 2 versions', 'ie 9', 'ios 6', 'android 4'))
