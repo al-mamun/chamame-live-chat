@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Chamame Live Chat
  * Description: Simple chat application for customer support.
- * Version: 0.1.0
+ * Version: 0.2.0
  * Author: katanyan
  * Author URI: http://blog.katanyan.com
  * Requires at least: 3.9
