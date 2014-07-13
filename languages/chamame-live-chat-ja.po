@@ -4,43 +4,61 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Chamame Live Chat 0.1.0\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/chamame-live-chat\n"
-"POT-Creation-Date: 2014-06-24 22:55:51+00:00\n"
+"POT-Creation-Date: 2014-07-13 17:30:11+00:00\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
 
 #: libs/ChamameInstaller.php:87
 msgid "Chat Operator"
 msgstr "チャットオペレーター"
 
-#: libs/admin/ChamameGuiAdmin.php:47
+#: libs/admin/ChamameGuiAdmin.php:89
 msgid "Something went wrong. Please try again"
 msgstr "何かがおかしいようです。恐れ入りますが、再度お試しください"
 
-#: libs/admin/ChamameGuiAdmin.php:73
+#: libs/admin/ChamameGuiAdmin.php:115
 msgctxt "admin page title"
 msgid "Chat"
 msgstr "チャット"
 
-#: libs/admin/ChamameGuiAdmin.php:74
+#: libs/admin/ChamameGuiAdmin.php:116
 msgctxt "admin menu label"
 msgid "Chat"
 msgstr "チャット"
 
-#: libs/client/ChamameVisitorOnlyChatClient.php:45
+#: libs/admin/ChamameGuiAdmin.php:133
+msgid "Chat Settings"
+msgstr "チャット設定"
+
+#: libs/admin/ChamameGuiAdmin.php:134
+msgid "Operator Name"
+msgstr "オペレーター名"
+
+#: libs/admin/ChamameGuiAdmin.php:135
+msgid ""
+"Input operator name. If this item is empty, \"Display name publicly as"
+"\" is displayed as operator name."
+msgstr "チャットで発言する際に相手に対して表示する名前を入力してください。この項目が空の場合は「ブログ上の表示名」が発言者の名前として表示されます。"
+
+#: libs/admin/ChamameGuiAdmin.php:179
+msgid "<strong>ERROR</strong>: Operator name must be at most %d characters."
+msgstr "<strong>エラー</strong>: オペレーター名は%d文字以下で入力してください。"
+
+#: libs/client/ChamameVisitorOnlyChatClient.php:80
 msgid "An name is required"
 msgstr "名前を入力してください"
 
-#: libs/client/ChamameVisitorOnlyChatClient.php:46
+#: libs/client/ChamameVisitorOnlyChatClient.php:81
 msgid "Doesn't look like a valid email"
 msgstr "メールアドレスの形式が正しくありません"
 
-#: libs/client/ChamameVisitorOnlyChatClient.php:47
+#: libs/client/ChamameVisitorOnlyChatClient.php:82
 msgid "An email is required"
 msgstr "メールアドレスを入力してください"
 
-#: libs/client/ChamameVisitorOnlyChatClient.php:48
+#: libs/client/ChamameVisitorOnlyChatClient.php:83
 msgid "We're sorry, but something went wrong. Please try again"
 msgstr "何かがおかしいようです。恐れ入りますが、再度お試しください"
 
@@ -57,11 +75,11 @@ msgctxt "sender prefix"
 msgid "From: "
 msgstr ""
 
-#: templates/adminConsole.php:49 templates/client.php:52
+#: templates/adminConsole.php:48 templates/client.php:52
 msgid "Press enter to send chat"
 msgstr "Enterキーを押して送信"
 
-#: templates/adminConsole.php:57
+#: templates/adminConsole.php:56
 msgid "Hide conversation"
 msgstr "会話を隠す"
 

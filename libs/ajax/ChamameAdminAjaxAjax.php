@@ -80,8 +80,11 @@ class ChamameAdminAjaxAjax extends ChamameAjax {
     }
 
     $wpUser = wp_get_current_user();
-    $params = new ChamameUserParams( $_POST, $_SERVER, ChamameUser::USER_TYPE_OPERATOR, $wpUser->get( 'ID' ) );
-    $params->setName( $wpUser->get( 'display_name' ) );
+    $wpUserId = $wpUser->get( 'ID' );
+    $params = new ChamameUserParams( $_POST, $_SERVER, ChamameUser::USER_TYPE_OPERATOR, $wpUserId );
+    $operatorName = get_user_meta( $wpUserId, 'chamameOperatorName', true );
+    $operatorName = $operatorName !== '' ? $operatorName : $wpUser->get( 'display_name' );
+    $params->setName( $operatorName );
     $params->setEmail( $wpUser->get( 'user_email' ) );
     $params->parse();
     if ( ! $params->isValid() ) {

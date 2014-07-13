@@ -17,15 +17,17 @@ Chamame is a WordPress plugin that adds a live chat for excellent customer suppo
 = Plugin features: =
 
 * Working with standalone. Not depend on other services.
+* Create operator account.
+* Set operator name to each account.
+* Multibyte ready.
 * Easy to use.
 * Promising ;)
 
 = Future enhancements: =
 
+* Save and view chat logs.
 * Custom label text.
 * Custom look and feel.
-* Operator nickname to display in chat console.
-* Save and view chat history.
 * Disable chat when operator is away.
 * Alternative contact form for when operator is away.
 * Notification email when visitor starts chat.
@@ -41,6 +43,9 @@ Chamame is a WordPress plugin that adds a live chat for excellent customer suppo
 1. Activate the plugin through the 'Plugins' menu in WordPress.
 
 == Changelog ==
+
+= 14 Jul 2014, 0.2.0 =
+* Enhancement: Add operator name option to user profile page.
 
 = 25 Jun 2014, 0.1.0 =
 * Initial release.

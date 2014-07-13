@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Chamame Live Chat 0.1.0\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/chamame-live-chat\n"
-"POT-Creation-Date: 2014-06-24 22:55:51+00:00\n"
+"POT-Creation-Date: 2014-07-13 17:30:11+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,33 +14,51 @@ msgstr ""
 msgid "Chat Operator"
 msgstr ""
 
-#: libs/admin/ChamameGuiAdmin.php:47
+#: libs/admin/ChamameGuiAdmin.php:89
 msgid "Something went wrong. Please try again"
 msgstr ""
 
-#: libs/admin/ChamameGuiAdmin.php:73
+#: libs/admin/ChamameGuiAdmin.php:115
 msgctxt "admin page title"
 msgid "Chat"
 msgstr ""
 
-#: libs/admin/ChamameGuiAdmin.php:74
+#: libs/admin/ChamameGuiAdmin.php:116
 msgctxt "admin menu label"
 msgid "Chat"
 msgstr ""
 
-#: libs/client/ChamameVisitorOnlyChatClient.php:45
+#: libs/admin/ChamameGuiAdmin.php:133
+msgid "Chat Settings"
+msgstr ""
+
+#: libs/admin/ChamameGuiAdmin.php:134
+msgid "Operator Name"
+msgstr ""
+
+#: libs/admin/ChamameGuiAdmin.php:135
+msgid ""
+"Input your operator name. If this item is empty, \"Display name publicly as"
+"\" is displayed as operator name."
+msgstr ""
+
+#: libs/admin/ChamameGuiAdmin.php:179
+msgid "<strong>ERROR</strong>: Operator name must be at most %d characters."
+msgstr ""
+
+#: libs/client/ChamameVisitorOnlyChatClient.php:80
 msgid "An name is required"
 msgstr ""
 
-#: libs/client/ChamameVisitorOnlyChatClient.php:46
+#: libs/client/ChamameVisitorOnlyChatClient.php:81
 msgid "Doesn't look like a valid email"
 msgstr ""
 
-#: libs/client/ChamameVisitorOnlyChatClient.php:47
+#: libs/client/ChamameVisitorOnlyChatClient.php:82
 msgid "An email is required"
 msgstr ""
 
-#: libs/client/ChamameVisitorOnlyChatClient.php:48
+#: libs/client/ChamameVisitorOnlyChatClient.php:83
 msgid "We're sorry, but something went wrong. Please try again"
 msgstr ""
 
@@ -57,11 +75,11 @@ msgctxt "sender prefix"
 msgid "From: "
 msgstr ""
 
-#: templates/adminConsole.php:49 templates/client.php:52
+#: templates/adminConsole.php:48 templates/client.php:52
 msgid "Press enter to send chat"
 msgstr ""
 
-#: templates/adminConsole.php:57
+#: templates/adminConsole.php:56
 msgid "Hide conversation"
 msgstr ""
 
