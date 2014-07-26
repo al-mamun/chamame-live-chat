@@ -145,7 +145,7 @@ class ChamameAdminAjaxAjax extends ChamameAjax {
       $this->fail( $e->getMessage() );
     }
 
-    $params = new chamameMessageParams( $_POST, $this->session );
+    $params = new ChamameMessageParams( $_POST, $this->session );
     if ( ! $params->isValid() ) {
       $this->fail( $params->getErrorMessage() );
     }

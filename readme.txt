@@ -4,7 +4,7 @@ Donate link: http://blog.katanyan.com/
 Tags: chat, customer support, help desk
 Requires at least: 3.9
 Tested up to: 3.9.1
-Stable tag: 0.2.0
+Stable tag: 0.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -43,6 +43,9 @@ Chamame is a WordPress plugin that adds a live chat for excellent customer suppo
 1. Activate the plugin through the 'Plugins' menu in WordPress.
 
 == Changelog ==
+
+= 14 Jul 2014, 0.2.1 =
+* Bugfix: Fix typo.
 
 = 14 Jul 2014, 0.2.0 =
 * Enhancement: Add operator name option to user profile page.
