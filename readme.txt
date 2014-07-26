@@ -44,7 +44,7 @@ Chamame is a WordPress plugin that adds a live chat for excellent customer suppo
 
 == Changelog ==
 
-= 14 Jul 2014, 0.2.1 =
+= 26 Jul 2014, 0.2.1 =
 * Bugfix: Fix typo.
 
 = 14 Jul 2014, 0.2.0 =
